@@ -129,15 +129,9 @@ fun Strings.ko(): String? = when (this) {
     StarterNewAutoExport -> "자동 내보내기"
     StarterNewAutoExportHelp ->
         "프로젝트가 저장되면 주어진 입력 파일을 자동으로 덮어써요(따로 주어진 입력 파일이 없으면, " +
-<<<<<<< HEAD
             "라벨러가 정의한 기본 파일을 덮어씁니다)."
     StarterNewWarningSelfConstructedLabelerWithTemplatePlugin ->
         "여러 하위 프로젝트를 관리하는 라벨러로 템플릿 생성기를 사용하려 하고 있어요. " +
-=======
-        "라벨러가 정의한 기본 파일을 덮어씁니다)."
-    StarterNewWarningSelfConstructedLabelerWithTemplatePlugin ->
-            "여러 하위 프로젝트를 관리하는 라벨러로 템플릿 생성기를 사용하려 하고 있어요. " +
->>>>>>> 985aadcb01817741b1b0945c89e5d811accda1c6
             "생성된 엔트리들로 모든 라벨 파일들이 덮어씌워질 위험이 있습니다. " +
             "설정에 실수가 없었는지 충분히 검토 후 실행해 주세요."
     StarterNewDirectoryPage -> "폴더 설정"
@@ -180,11 +174,7 @@ fun Strings.ko(): String? = when (this) {
     ExportDialogTitle -> "내보내기"
     SetResolutionDialogDescription -> "에디터 캔버스의 해상도를 입력해 주세요 (%d ~ %d)"
     SetEntryPropertyDialogDescription ->
-<<<<<<< HEAD
         "이 엔트리의 `%s` 값을 입력해 주세요. \n" +
-=======
-    "이 엔트리의 `%s` 값을 입력해 주세요. \n" +
->>>>>>> 985aadcb01817741b1b0945c89e5d811accda1c6
             "vLabeler는 입력값들을 별다르게 검토하고 있지 않으니, " +
             "이 기능을 실행한 후 데이터 유효성에 이상이 없는지 반드시 확인해 주세요. "
     AskIfSaveBeforeOpenDialogDescription ->
@@ -202,7 +192,6 @@ fun Strings.ko(): String? = when (this) {
     EditEntryNameDialogExistingError -> "이미 존재하는 엔트리 이름이에요."
     EditEntryExtraDialogDescription -> "현재 엔트리의 추가정보 편집"
     EditModuleExtraDialogDescription -> "현재 하위 프로젝트의 추가정보 편집"
-<<<<<<< HEAD
     MoveEntryDialogDescription -> "엔트리 \"%1\$s\"의 새로운 인덱스 입력 (%2\$d ~ %3\$d)"
     AskIfRemoveEntryDialogDescription -> "현재 엔트리 삭제 중..."
     AskIfRemoveEntryLastDialogDescription ->
@@ -212,17 +201,6 @@ fun Strings.ko(): String? = when (this) {
     AskIfLoadAutoSavedProjectDialogDescription ->
         "자동 저장된 프로젝트 파일을 찾았어요. 불러올까요? " +
             "자동 저장된 임시 파일은 다른 프로젝트를 만들거나 열면 사라지니 주의하세요."
-=======
-    MoveEntryDialogDescription -> "엔트리 \'%1\$s\'의 새로운 인덱스 입력 (%2\$d ~ %3\$d)"
-    AskIfRemoveEntryDialogDescription -> "현재 엔트리 삭제 중..."
-    AskIfRemoveEntryLastDialogDescription ->
-        "현재 엔트리 삭제 중...\n" +
-        "이 엔트리는 현재 샘플 파일에서 유일하게 참조되고 있던 엔트리에요.\n" +
-            "나중에 이 샘플에 엔트리를 추가하려면, `외형` -> `샘플 목록`을 눌러 주세요."
-    AskIfLoadAutoSavedProjectDialogDescription ->
-     "자동 저장된 프로젝트 파일을 찾았어요. 불러올까요? " +
-        "자동 저장된 임시 파일은 다른 프로젝트를 만들거나 열면 사라지니 주의하세요."
->>>>>>> 985aadcb01817741b1b0945c89e5d811accda1c6
     AskIfRedirectSampleDirectoryDialogDescription ->
         "현재 하위 프로젝트 (%s) 의 샘플 폴더가 존재하지 않거나, " +
             "필요한 샘플 파일들이 누락된 것 같아요. " +
@@ -269,11 +247,7 @@ fun Strings.ko(): String? = when (this) {
     PluginEntrySelectorPlaceholder -> "필터 없이 모든 엔트리를 선택하고 있어요."
     PluginEntrySelectorExpressionTitle -> "표현식"
     PluginEntrySelectorExpressionDescription ->
-<<<<<<< HEAD
         "위에 명시된 필터들을 조합하는 논리 표현식이에요. \n" +
-=======
-    "위에 명시된 필터들을 조합하는 논리 표현식이에요. \n" +
->>>>>>> 985aadcb01817741b1b0945c89e5d811accda1c6
             "사용 가능한 표기: `and`, `or`, `not`, `xor`, `(`, `)`, `#1`, `#2`, 등..."
     EditorSubTitleMultiple -> "샘플 %2\$의 엔트리 %1\$d개 편집 중 "
     FailedToLoadSampleFileError -> "샘플 파일을 불러오지 못했어요.\n존재하지 않는 파일이거나 지원되지 않는 형식일 수 있어요."
@@ -281,35 +255,21 @@ fun Strings.ko(): String? = when (this) {
         "플러그인 실행 도중 예상치 못한 오류가 발생했어요.\n" +
             "자세한 내용은 플러그인 제작자에게 문의해 확인해 주세요."
     InvalidCreatedProjectException ->
-<<<<<<< HEAD
         "생성된 프로젝트가 유효하지 않아요. " +
-=======
-            "생성된 프로젝트가 유효하지 않아요. " +
->>>>>>> 985aadcb01817741b1b0945c89e5d811accda1c6
             "라벨러나 플러그인의 설정이 올바르게 되어 있는지 확인해 주세요. \n" +
             "문제가 지속된다면, 해당 라벨러나 플러그인의 제작자에게 문의해 주세요."
     InvalidOpenedProjectException ->
         "프로젝트를 열지 못했어요. 올바르지 않은 데이터가 포함되어 있는 것 같아요.\n" +
             "자세한 내용은 에러 로그를 통해 확인해 주세요."
     ProjectParseException ->
-<<<<<<< HEAD
         "프로젝트를 열지 못했어요.\n" +
-=======
-    "프로젝트를 열지 못했어요.\n" +
->>>>>>> 985aadcb01817741b1b0945c89e5d811accda1c6
             "손상된 프로젝트거나 호환되지 않는 버전의 vLabeler로 생성된 프로젝트일 수 있어요.\n" +
             "새 프로젝트를 만들고, `파일` -> `[불러오기]...`를 통해 프로젝트를 불러와 주세요."
     ProjectImportException ->
         "파일을 불러오지 못했어요.\n" +
-<<<<<<< HEAD
             "올바르지 않은 vLabeler 프로젝트 파일일 확률이 높아요. 자세한 내용은 에러 로그를 통해 확인해 주세요."
     ProjectUpdateOnSampleException ->
         "불러온 샘플 파일로 프로젝트를 업데이트하지 못했어요." +
-=======
-        "올바르지 않은 vLabeler 프로젝트 파일일 확률이 높아요. 자세한 내용은 에러 로그를 통해 확인해 주세요."
-    ProjectUpdateOnSampleException ->
-    "불러온 샘플 파일로 프로젝트를 업데이트하지 못했어요." +
->>>>>>> 985aadcb01817741b1b0945c89e5d811accda1c6
             "\n자세한 내용은 에러 로그를 확인해 주세요."
     InvalidEditedProjectException -> "올바르지 않게 편집된 프로젝트에요..\n자세한 내용은 에러 로그를 확인해 주세요."
     CustomizableItemLoadingException -> "선택된 커스텀 항목을 불러오지 못했어요."
@@ -321,17 +281,10 @@ fun Strings.ko(): String? = when (this) {
         "항목을 설정하는 도중 예상치 못한 오류가 발생했어요.\n" +
             "자세한 내용은 라벨러 제작자에게 문의해 확인해 주세요."
     VideoComponentInitializationException ->
-<<<<<<< HEAD
         "영상 요소를 초기화하지 못했어요. 이 기능을 사용하려면 기기에 VLC가 설치되어 있어야 해요. " +
             "README의 `Video integration` 부분을 확인해 주세요."
     VideoFileNotFoundExceptionTemplate ->
         "\"%s\" 이름과 일치하고 %s 사이의 확장자를 지닌 영상을 찾지 못했어요."
-=======
-    "영상 요소를 초기화하지 못했어요. 이 기능을 사용하려면 기기에 VLC가 설치되어 있어야 해요. " +
-            "README의 `Video integration` 부분을 확인해 주세요."
-    VideoFileNotFoundExceptionTemplate ->
-        "\'%s\' 이름과 일치하고 %s 사이의 확장자를 지닌 영상을 찾지 못했어요."
->>>>>>> 985aadcb01817741b1b0945c89e5d811accda1c6
     LabelerManagerTitle -> "라벨러 목록"
     LabelerManagerImportDialogTitle -> "라벨러 불러오기"
     TemplatePluginManagerTitle -> "템플릿 생성기 목록"
@@ -341,11 +294,7 @@ fun Strings.ko(): String? = when (this) {
     MacroPluginReportDialogTitle -> "일괄 편집 실행 결과"
     MacroPluginReportDialogCopy -> "복사"
     CustomizableItemManagerRemoveItemConfirm ->
-<<<<<<< HEAD
         "\"%s\" 항목을 정말로 제거할까요? " +
-=======
-        "\'%s\' 항목을 정말로 제거할까요? " +
->>>>>>> 985aadcb01817741b1b0945c89e5d811accda1c6
             "해당 파일이 저장장치에서 제거됩니다."
     CustomizableItemManagerOpenDirectory -> "폴더 열기"
     CustomizableItemManagerReload -> "목록 새로고침"
@@ -366,40 +315,24 @@ fun Strings.ko(): String? = when (this) {
     PreferencesChartsCanvasDescription -> "차트가 그려지는 캔버스에 대한 일반 항목들을 커스텀합니다"
     PreferencesChartsCanvasResolution -> "캔버스 해상도"
     PreferencesChartsCanvasResolutionDescription ->
-<<<<<<< HEAD
         "1픽셀당 포함된 샘플 포인트들의 숫자로 정의됩니다.\n" +
-=======
-    "1픽셀당 포함된 샘플 포인트들의 숫자로 정의됩니다.\n" +
->>>>>>> 985aadcb01817741b1b0945c89e5d811accda1c6
             "숫자가 클수록, 차트가 그려지는 속도는 느려져요. "
     PreferencesChartsCanvasResolutionDefault -> "기본 해상도"
     PreferencesChartsCanvasResolutionStep -> "단계"
     PreferencesChartsMaxDataChunkSize -> "데이터의 최대 청크 사이즈"
     PreferencesChartsMaxDataChunkSizeDescription ->
-<<<<<<< HEAD
         "차트 청크에 포함될 최대 프레임 수.\n" +
-=======
-    "차트 청크에 포함될 최대 프레임 수.\n" +
->>>>>>> 985aadcb01817741b1b0945c89e5d811accda1c6
             "숫자가 클수록, 차트가 더 적은 수의 조각으로 나뉘어 렌더됩니다."
     PreferencesChartsWaveform -> "파형"
     PreferencesChartsWaveformDescription -> "파형 차트를 커스텀합니다."
     PreferencesChartsWaveformResampleDownTo -> "최대 샘플 레이트 (Hz)"
     PreferencesChartsWaveformResampleDownToDescription ->
-<<<<<<< HEAD
         "더 높은 샘플 레이트의 오디오 파일은 " +
-=======
-            "더 높은 샘플 레이트의 오디오 파일은 " +
->>>>>>> 985aadcb01817741b1b0945c89e5d811accda1c6
             "주어진 값으로 다운샘플링되어 렌더됩니다(파일은 수정되지 않아요).\n" +
             "다운샘플링을 비활성화하려면 이 항목을 0으로 설정하세요."
     PreferencesChartsWaveformNormalize -> "오디오 노멀라이즈"
     PreferencesChartsWaveformNormalizeDescription ->
-<<<<<<< HEAD
         "처음 로드 시, 노멀라이즈에는 시간이 걸립니다.\n" +
-=======
-            "처음 로드 시, 노멀라이즈에는 시간이 걸립니다.\n" +
->>>>>>> 985aadcb01817741b1b0945c89e5d811accda1c6
             "노멀라이즈는 vLabeler 내에서만 적용되며, 오디오 파일은 수정되지 않아요."
     PreferencesChartsWaveformUnitSize -> "픽셀 당 포인트"
     PreferencesChartsWaveformUnitSizeDescription -> "화질이 낮은 이미지를 원하면 이 수치를 올리세요."
@@ -430,11 +363,7 @@ fun Strings.ko(): String? = when (this) {
             "변경사항을 적용하려면 환경설정 창을 다시 열어 주세요."
     PreferencesChartsSpectrogramUseHighAlphaContrast -> "고대비 알파 사용"
     PreferencesChartsSpectrogramUseHighAlphaContrastDescription ->
-<<<<<<< HEAD
         "알파 값을 지닌 색상 팔레트들에만 적용됩니다."
-=======
-    "알파 값을 지닌 색상 팔레트들에만 적용됩니다."
->>>>>>> 985aadcb01817741b1b0945c89e5d811accda1c6
     PreferencesChartsPower -> "파워"
     PreferencesChartsPowerDescription -> "파워 차트를 커스텀합니다."
     PreferencesChartsPowerEnabled -> "파워 차트 표시"
@@ -456,11 +385,7 @@ fun Strings.ko(): String? = when (this) {
     PreferencesChartsConversionDescription -> "wav 이외에 지원할 오디오 형식들을 지정합니다."
     PreferencesChartsConversionFFmpegPath -> "FFmpeg 실행 경로"
     PreferencesChartsConversionFFmpegPathDescription ->
-<<<<<<< HEAD
         "로드 전 형식 변환을 수행하기 위해, @open{FFmpeg}를 설치하고, 실행 경로로 지정해 주세요. " +
-=======
-            "로드 전 형식 변환을 수행하기 위해, @open{FFmpeg}를 설치하고, 실행 경로로 지정해 주세요. " +
->>>>>>> 985aadcb01817741b1b0945c89e5d811accda1c6
             "설치한 FFmpeg를 vLabeler에서 사용하기 전, 해당 FFmpeg가 OS에서 잘 실행되는지 우선적으로 확인해 주세요. " +
             "오류가 발생할 경우, 서명되지 않은 실행 파일 혹은 접근 권한과 관련되어 있을 확률이 높습니다."
     PreferencesChartsConversionFFmpegArgs -> "입력값과 출력값 이외의 FFmpeg 인수"

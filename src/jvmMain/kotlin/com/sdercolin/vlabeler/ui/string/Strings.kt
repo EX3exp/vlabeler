@@ -598,10 +598,7 @@ enum class Strings {
         English -> en()
         ChineseSimplified -> zhHans()
         Japanese -> ja()
-<<<<<<< Updated upstream
-=======
         Korean -> ko()
->>>>>>> Stashed changes
     } ?: en()
 }
 
