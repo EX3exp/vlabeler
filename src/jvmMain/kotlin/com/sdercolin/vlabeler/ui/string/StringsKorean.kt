@@ -556,7 +556,7 @@ fun Strings.ko(): String? = when (this) {
     PreferencesMiscClearRecordConfirmation ->
         "정말로 모든 앱 사용 기록을 초기화하시겠어요?\n" +
             "현재 열린 프로젝트를 저장하지 않은 채로 프로그램이 강제종료됩니다.\n" +
-            "돌이킬 수 없는 동작이오니 충분한 검토 후 실행해 주십시오.\n"
+            "돌이킬 수 없는 동작이니 충분히 검토 후 실행해 주십시오.\n"
     PreferencesMiscClearAppData -> "앱의 모든 데이터 초기화"
     PreferencesMiscClearAppDataDescription ->
         "환경설정, 사용 기록, 설치된 플러그인 등, 앱의 모든 데이터를 지웁니다."
@@ -565,7 +565,7 @@ fun Strings.ko(): String? = when (this) {
         "정말로 앱의 모든 데이터를 초기화하시겠어요?\n" +
             "현재 열린 프로젝트를 저장하지 않은 채로 프로그램이 강제종료됩니다.\n" +
             "외부적으로 생성한 파일(프로젝트 관련 파일 등)을 제외한 앱의 모든 데이터가 디바이스에서 지워지며, " +
-            "이는 돌이킬 수 없으니 충분한 검토 후 실행해 주십시오.\n"
+            "이는 돌이킬 수 없으니 충분히 검토 후 실행해 주십시오.\n"
     ActionToggleSamplePlayback -> "현재 샘플 재생/정지"
     ActionToggleEntryPlayback -> "현재 엔트리 재생/정지"
     ActionToggleScreenRangePlayback -> "현재 화면에 표시되는 영역 재생/정지"
