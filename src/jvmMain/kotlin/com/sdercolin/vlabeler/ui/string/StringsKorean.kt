@@ -14,10 +14,10 @@ fun Strings.ko(): String? = when (this) {
     MenuFileSave -> "저장"
     MenuFileSaveAs -> "다른 이름으로 저장..."
     MenuFileProjectSetting -> "프로젝트 설정..."
-    MenuFileImport -> "[불러오기]..."
-    MenuFileExport -> "[내보내기]..."
-    MenuFileExportOverwrite -> "[내보내기] 덮어씌워서"
-    MenuFileExportOverwriteAll -> "[내보내기] 덮어씌워서 (모두)"
+    MenuFileImport -> "불러오기..."
+    MenuFileExport -> "내보내기..."
+    MenuFileExportOverwrite -> "덮어씌워 내보내기"
+    MenuFileExportOverwriteAll -> "덮어씌워 내보내기 (모두)"
     MenuFileInvalidateCaches -> "캐시 정리"
     MenuFileClose -> "닫기"
     MenuEdit -> "편집"
@@ -264,7 +264,7 @@ fun Strings.ko(): String? = when (this) {
     ProjectParseException ->
         "프로젝트를 열지 못했어요.\n" +
             "손상된 프로젝트거나 호환되지 않는 버전의 vLabeler로 생성된 프로젝트일 수 있어요.\n" +
-            "새 프로젝트를 만들고, `파일` -> `[불러오기]...`를 통해 프로젝트를 불러와 주세요."
+            "새 프로젝트를 만들고, `파일` -> `불러오기...`를 통해 프로젝트를 불러와 주세요."
     ProjectImportException ->
         "파일을 불러오지 못했어요.\n" +
             "올바르지 않은 vLabeler 프로젝트 파일일 확률이 높아요. 자세한 내용은 에러 로그를 통해 확인해 주세요."
@@ -681,7 +681,7 @@ fun Strings.ko(): String? = when (this) {
     ProjectSettingDialogTitle -> "프로젝트 설정"
     ProjectSettingOutputFileLabel -> "출력 파일"
     ProjectSettingOutputFileHelperText ->
-        "`내보내기` 동작의 타겟 파일.\n설정되지 않을 경우, `[내보내기] 덮어씌워서`가 비활성화됩니다."
+        "`내보내기` 동작의 타겟 파일.\n설정되지 않을 경우, `덮어씌워 내보내기`가 비활성화됩니다."
     ProjectSettingOutputFileDisabledPlaceholder -> "현재 라벨러에 의해 비활성화됨"
     ProjectSettingOutputFileSelectorDialogTitle -> "출력 파일 선택"
     ProjectSettingAutoExportHelperText ->
