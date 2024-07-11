@@ -739,6 +739,17 @@ fun Strings.ko(): String? = when (this) {
     EntryFilterSetterDialogHeaderTag -> "다음을 포함하는 태그"
     EntryFilterSetterDialogHeaderStar -> "중요"
     EntryFilterSetterDialogHeaderDone -> "완료"
+    FileNameNormalizerDialogTitle -> "vLabeler - 파일명 정규화 도우미"
+    FileNameNormalizerTitle -> "파일명 정규화 도우미"
+    FileNameNormalizerDescription ->
+        "(주로 macOS에서 쓰이는) NFD 인코딩을 (주로 Windows에서 쓰이는) NFC 인코딩으로 변환해 줘요. " +
+            "폴더를 선택해 안에 있는 모든 파일명을 재귀적으로 변환하고, 파일을 선택해 각각의 내용을 변환할 수 있습니다.\n" +
+            "샘플 파일들을 기반으로 한 프로젝트를 이미 만든 상태라면, 프로젝트 파일의 내용과 샘플 파일명 모두를 변환해 주세요."
+    FileNameNormalizerHandleFolderButton -> "폴더 선택"
+    FileNameNormalizerHandleFileContentButton -> "파일 선택"
+    FileNameNormalizerHandleFolderSuccess -> "파일 %d개를 스캔하고, %d개를 변환했어요."
+    FileNameNormalizerHandleFileSuccess -> "파일 내용을 성공적으로 변환했어요."
+    FileNameNormalizerHandleFileNoChange -> "파일 내용 변환이 필요 없어요."
     ReloadLabelDialogTitle -> "라벨 파일 새로고침"
     ReloadLabelDialogModuleNameTemplate -> "하위 프로젝트: %s"
     ReloadLabelDialogShowUnchanged -> "변경되지 않은 상태로 표시"
