@@ -115,7 +115,6 @@ fun Strings.ko(): String? = when (this) {
     StarterStart -> "시작하기"
     StarterNewProject -> "새 프로젝트..."
     StarterOpen -> "열기..."
-    StarterQuickEdit -> "빠른 편집"
     StarterRecent -> "최근 기록들"
     StarterRecentEmpty -> "최근에 연 프로젝트가 없어요."
     StarterRecentDeleted -> "제거된 프로젝트 파일이에요."
@@ -254,7 +253,7 @@ fun Strings.ko(): String? = when (this) {
     PluginEntrySelectorExpressionDescription ->
         "위에 명시된 필터들을 조합하는 논리 표현식이에요. \n" +
             "사용 가능한 표기: `and`, `or`, `not`, `xor`, `(`, `)`, `#1`, `#2`, 등..."
-    EditorSubTitleMultiple -> "샘플 %2s\$의 엔트리 %1d\$개 편집 중 "
+    EditorSubTitleMultiple -> "샘플 %2\$s의 엔트리 %1\$d개 편집 중 "
     FailedToLoadSampleFileError -> "샘플 파일을 불러오지 못했습니다.\n존재하지 않는 파일이거나 지원되지 않는 형식일 수 있습니다."
     PluginRuntimeUnexpectedException ->
         "플러그인 실행 도중 예상치 못한 오류가 발생했어요.\n" +
@@ -281,7 +280,6 @@ fun Strings.ko(): String? = when (this) {
     CustomizableItemRemovingException -> "선택된 커스텀 항목을 삭제하지 못했어요."
     PluginRuntimeExceptionTemplate -> "플러그인 런타임 오류: %s"
     ProjectConstructorRuntimeExceptionTemplate -> "프로젝트 구성 도중 라벨러 런타임 오류: %s"
-    QuickProjectBuilderRuntimeExceptionTemplate -> "빠른 편집 프로젝트 생성 도중 라벨러 런타임 오류: %s"
     PropertySetterRuntimeExceptionTemplate -> "항목 설정 도중 라벨러 런타임 오류: %s"
     PropertySetterUnexpectedRuntimeException ->
         "항목을 설정하는 도중 예상치 못한 오류가 발생했어요.\n" +
@@ -741,6 +739,20 @@ fun Strings.ko(): String? = when (this) {
     EntryFilterSetterDialogHeaderTag -> "다음을 포함하는 태그"
     EntryFilterSetterDialogHeaderStar -> "중요"
     EntryFilterSetterDialogHeaderDone -> "완료"
+FileNameNormalizerDialogTitle -> "vLabeler - File Name Normalizer"
+    FileNameNormalizerTitle -> "File Name Normalizer"
+    FileNameNormalizerDescription ->
+        "This tool is for convert file names from NFD(usually used on macOS) to " +
+            "NFC(usually used on Windows) encoding." +
+            "Select a folder to convert all the file names under it recursively, " +
+            "or select a file to convert its content.\n" +
+            "If you have already created a project based on sample files, make sure you convert both the sample file " +
+            "names and the content of the project file."
+    FileNameNormalizerHandleFolderButton -> "Pick a folder"
+    FileNameNormalizerHandleFileContentButton -> "Pick a file"
+    FileNameNormalizerHandleFolderSuccess -> "Scanned %d files, converted %d files."
+    FileNameNormalizerHandleFileSuccess -> "Successfully converted the file content."
+    FileNameNormalizerHandleFileNoChange -> "No conversion needed for the file content."
     ReloadLabelDialogTitle -> "라벨 파일 새로고침"
     ReloadLabelDialogModuleNameTemplate -> "하위 프로젝트: %s"
     ReloadLabelDialogShowUnchanged -> "변경되지 않은 상태로 표시"
